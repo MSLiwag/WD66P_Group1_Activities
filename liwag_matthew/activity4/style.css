@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+    font-style:helvetica;
+    }
+body{
+    height:100vh;
+    width:100vw;
+    background-image:url(background.jpg);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+a{
+    color:white;
+    text-decoration:none;
+}
+.contact-details li:hover{
+    transform:scale(1.15);
+}
+.nav-link, .nav-link:hover{
+    color:white;
+}
+.intro{
+    text-align:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:10vh;
+}
+ul{
+    padding:0;
+}
+ul li{
+    list-style:none;
+}
+.contact-details{
+    margin-left:2rem;
+}
+#myTab{
+    margin-bottom:2rem;
+}
+.menu li{
+    border-bottom:5px solid white;
+    margin-top:0.5rem;
+}
+
+.menu ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 
+}
+.menu ul li{
+    padding: 0 20px;
+}
+.ed-att li{
+    list-style:url(graduation-cap-solid.svg)
+}
+.work-exp li{
+    text-align:center;
+}
+.trainings li{
+    list-style:url(dumbbell-solid.svg);
+}
+.tab-content ul,.reference{
+    padding-left:1.5rem;
+}
+.person {
+    list-style:url(user-check-solid.svg);
+}
+.number{
+    list-style:url(mobile-retro-solid.svg);
+}
